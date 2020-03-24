@@ -1,4 +1,4 @@
-cd gh-pages
+cd docs
 for chart in $(find ../charts/* -maxdepth 0 -type d); do
     helm package ../charts/$chart
 done
