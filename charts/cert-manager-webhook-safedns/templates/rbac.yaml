@@ -3,7 +3,10 @@ kind: Role
 metadata:
   name: {{ include "cert-manager-webhook-safedns.fullname" . }}:apikey-secret-reader
   labels:
-{{ include "cert-manager-webhook-safedns.labels" . | indent 4 }}
+    app: {{ include "cert-manager-webhook-safedns.name" . }}
+    chart: {{ include "cert-manager-webhook-safedns.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
 rules:
   - apiGroups:
       - ""
@@ -17,7 +20,10 @@ kind: RoleBinding
 metadata:
   name: {{ include "cert-manager-webhook-safedns.fullname" . }}:apikey-secret-reader
   labels:
-{{ include "cert-manager-webhook-safedns.labels" . | indent 4 }}
+    app: {{ include "cert-manager-webhook-safedns.name" . }}
+    chart: {{ include "cert-manager-webhook-safedns.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
