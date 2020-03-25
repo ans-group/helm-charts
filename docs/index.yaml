@@ -3,11 +3,11 @@ entries:
   cert-manager-webhook-safedns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-25T10:27:51.5184103Z"
+    created: "2020-03-25T11:57:29.9682406Z"
     description: A Helm chart for installing the SafeDNS webhook for cert-manager
-    digest: 9122c2fc77564d64f584992dd338afd4dfdf2e74c1bca2bc9e6b85a86d4f424a
+    digest: bc1d55d22cc9fe791b2614cd55d4114bb054283460ea5805546259f88f4c1269
     name: cert-manager-webhook-safedns
     urls:
     - https://ukfast.github.io/helm-charts/cert-manager-webhook-safedns-1.0.0.tgz
     version: 1.0.0
-generated: "2020-03-25T10:27:51.5173489Z"
+generated: "2020-03-25T11:57:29.967332Z"
