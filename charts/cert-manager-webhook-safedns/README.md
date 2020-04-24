@@ -18,6 +18,7 @@ This Helm chart installs the SafeDNS cert-manager webhook into a Kubernetes clus
 
 | Parameter | Description | Default |
 | --------- | ----------- | ------- |
+| `groupName`                       | Name of API group                 | `acme.k8s.ukfast.io` |
 | **Image** |
 | `image.repository`                | Image                             | `ukfast/cert-manager-webhook-safedns` |
 | `image.tag`                       | Image tag                         | `latest` |
