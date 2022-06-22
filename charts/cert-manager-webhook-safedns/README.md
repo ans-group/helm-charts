@@ -10,9 +10,9 @@ This Helm chart installs the SafeDNS cert-manager webhook into a Kubernetes clus
 
 ## Installation
 
-* `helm repo add ans-group https://ans-group.github.io/helm-charts`
+* `helm repo add ans https://ans-group.github.io/helm-charts`
 * `helm repo update`
-* `helm install cert-manager-webhook-safedns ans-group/cert-manager-webhook-safedns`
+* `helm install cert-manager-webhook-safedns ans/cert-manager-webhook-safedns`
 
 ## Configuration
 
