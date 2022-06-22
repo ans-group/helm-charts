@@ -1,4 +1,4 @@
-groupName: acme.k8s.ukfast.io
+groupName: acme.k8s.ans.io
 
 certManager:
   apiVersion: cert-manager.io/v1
@@ -6,7 +6,7 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: ukfast/cert-manager-webhook-safedns
+  repository: ans-group/cert-manager-webhook-safedns
   tag: latest
   pullPolicy: IfNotPresent
 

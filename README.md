@@ -1,10 +1,10 @@
-# UKFast Helm Charts
+# ANS Helm Charts
 
-This repository contains UKFast public-facing Helm charts. The repository is served via Github pages from `docs/`
+This repository contains ANS public-facing Helm charts. The repository is served via Github pages from `docs/`
 
 ### Installing
 
 ```
-helm repo add ukfast https://ukfast.github.io/helm-charts
+helm repo add ans https://ans-group.github.io/helm-charts
 helm repo update
 ```
