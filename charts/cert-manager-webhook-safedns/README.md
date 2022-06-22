@@ -20,7 +20,7 @@ This Helm chart installs the SafeDNS cert-manager webhook into a Kubernetes clus
 | --------- | ----------- | ------- |
 | `groupName`                       | Name of API group                 | `acme.k8s.ans.io` |
 | **Image** |
-| `image.repository`                | Image                             | `ans-group/cert-manager-webhook-safedns` |
+| `image.repository`                | Image                             | `ansgroup/cert-manager-webhook-safedns` |
 | `image.tag`                       | Image tag                         | `latest` |
 | **Cert Manager** |
 | `certManager.namespace`           | cert-manager namespace            | `cert-manager` |
