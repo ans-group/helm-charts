@@ -6,8 +6,8 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: ans-group/cert-manager-webhook-safedns
-  tag: latest
+  repository: ansgroup/cert-manager-webhook-safedns
+  tag: v1.0.1
   pullPolicy: IfNotPresent
 
 nameOverride: ""
