@@ -41,5 +41,5 @@ This Helm chart installs the SafeDNS cert-manager webhook into a Kubernetes clus
 
 The default value for `groupName` has changed. If this was not set previously, this will cause previous issuers to fail. There are two options for this scenario:
 
-a) Deploy new version of chart whilst setting `groupName` to previous value `acme.k8s.ukfast.io`
-b) Update issuers to use new `groupName` of `acme.k8s.ans.io`
+- Deploy new version of chart whilst setting `groupName` to previous value `acme.k8s.ukfast.io`
+- Update issuers to use new `groupName` of `acme.k8s.ans.io`
