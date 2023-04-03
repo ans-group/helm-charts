@@ -3,11 +3,20 @@ entries:
   cert-manager-webhook-safedns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-03-24T15:57:01.731425673Z"
+    created: "2023-04-03T13:36:43.23831537+01:00"
     description: A Helm chart for installing the SafeDNS webhook for cert-manager
     digest: f3b23687a176bf1a80508a22b39ac7695e4b6f35dc638de4a1e309a6a19b3c29
     name: cert-manager-webhook-safedns
     urls:
     - https://ans-group.github.io/helm-charts/cert-manager-webhook-safedns-1.3.0.tgz
     version: 1.3.0
-generated: "2023-03-24T15:57:01.729997739Z"
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-04-03T13:36:43.238095587+01:00"
+    description: A Helm chart for installing the SafeDNS webhook for cert-manager
+    digest: a7c5024b1ee97f895b9500db0390575605d75522ea5ac7f83f5f37f159e789d8
+    name: cert-manager-webhook-safedns
+    urls:
+    - https://ans-group.github.io/helm-charts/cert-manager-webhook-safedns-1.2.1.tgz
+    version: 1.2.1
+generated: "2023-04-03T13:36:43.237717122+01:00"

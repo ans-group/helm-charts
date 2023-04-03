@@ -1,4 +1,4 @@
-groupName: acme.k8s.ans.io
+groupName: acme.k8s.ukfast.io
 
 certManager:
   apiVersion: cert-manager.io/v1
